@@ -2,13 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <style>
-        body {
+         body {
             background-color: grey;
+            }
+        nav {
+            border-style: solid;
+            border-color: black;
         }
+        img {
+          width: 300px;         
+          margin-bottom: 5px;
+          border-style: solid;
+          border-radius: 10px;
+          padding: 2px;
+          border-color: black;
+          
+        }
+      .about {
+          background-color:lightgray;
+          padding: 20px;
+          border-radius: 10px;
+          border-style: solid;
+          border-color: black;
+          
+       }
+
+      h1 {
+          font-family: arial;
+      }
+      .who {
+        margin-left: 10px;
+      }
     </style>
 </head>
 <body>
@@ -18,16 +46,33 @@
         </span>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link active" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav>  
-
+    </nav>
+  <br>
+  <br>
+    <section class="container">
+      <div class="row">    
+        
+        <div class="col-sm-6 about">
+          <h1 class="who">How To Find Me</h1>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>         
+        </div>
+      </div>
+    </section>
+  <br>
+  <br>
 </body>
 </html>
