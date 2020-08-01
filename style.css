@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+    }
+nav {
+    border-style: solid;
+    border-color: black;
+}
+img {
+  height: 500px;
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2px;
+  border-color: black;
+  
+}
+.about {
+  background-color:lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  
+}
+article {
+  font-size: 18px;
+  font-family: Arial;
+
+}
+h1 {
+  font-family: arial;
+}
+.who {
+margin-left: 10px;
+}
+.thumbnail {
+    width: 300px;
+    height: 300px;         
+    margin-bottom: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 2px;
+    border-color: black;
+}
