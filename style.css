@@ -45,3 +45,20 @@ margin-left: 10px;
     padding: 2px;
     border-color: black;
 }
+
+@media screen and (max-width: 400px) {
+   
+    .thumbnail{
+        width: 100px;
+        height: 100px;
+    }
+    img{
+        height: 300px;
+        width: 150px;
+        margin-bottom: 2px;
+    }
+    article{
+        font-size: 16px;
+    }
+
+  }
