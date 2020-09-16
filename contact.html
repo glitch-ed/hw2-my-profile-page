@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
@@ -29,29 +31,26 @@
     <section class="container">
       <div class="row">    
         <div class="col-sm-5 about">
-          <h1 class="who">How To Reach Me </h1>
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-            </div>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>         
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroup-sizing-default">E-mail</span>
-            </div>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>         
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Message</span>
-            </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>
+          <h1 class="who">How To Contact Me </h1>
           <br>
-          <div>
-            <button type="button" class="btn btn-secondary btn-lg">Submit</button>
-          </div>       
+          <form action="https://formspree.io/xaylwlqr" method="POST">
+            <label>
+              Your Name:
+              <input type="text" name="name" class="form">
+            </label>
+            <label>
+              Your Email:
+              <input type="email" name="_replyto" class="form2">
+            </label>
+            <label>
+              Message:
+              <textarea name="message" class="form3"></textarea>
+            </label>
+            <div class="valid"></div>
+            <br>
+            <br>
+            <input type="submit" value="Send" class="send">
+          </form>
         </div>
         <div class="col-sm-2">
         </div>
@@ -61,10 +60,7 @@
           <a href="https://www.linkedin.com/in/eddie-villarreal-8babb0105/" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Linkedin</a>
           <br>
           <br>
-          <a href="https://www.facebook.com/eddie.villarreal.562" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Facebook</a>
-          <br>
-          <br>
-          <a href="https://twitter.com/ISeeZombies" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Twitter</a> 
+          <a href="https://github.com/glitch-ed" target="_blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">GitHub</a>
         </div>
       </div>
     </section>
