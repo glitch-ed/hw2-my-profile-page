@@ -38,13 +38,16 @@ h1 {
   margin-left: 10px;
 }
 .thumbnail {
-    width: 300px;
+    width: 500px;
     height: 300px;         
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     border-style: solid;
     border-radius: 10px;
     padding: 2px;
     border-color: black;
+}
+.see{
+  float: right;
 }
 .form{
     margin-left: 10px;
@@ -65,7 +68,7 @@ h1 {
     margin-left: 118px;
     
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
    
     .thumbnail{
         width: 100px;
